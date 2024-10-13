@@ -2,6 +2,8 @@
 # React-Aadhar-Card
 ## A slick aadhar card component for React.
 
+![demo](https://github.com/gaurangkeluskar22/React-Aadhar-Card/blob/master/src/assets/images/demo.gif)
+
 ### Install
 
 ```
