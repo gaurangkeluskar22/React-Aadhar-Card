@@ -1,0 +1,19 @@
+.aadharCard-bottom-section-icons{
+    width: 1rem;
+    object-fit: contain;
+    margin: 0px 5px;
+}
+
+.aadharCard-bottom-section-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.aadharCard-back-bottom-section{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: space-evenly;
+}

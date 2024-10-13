@@ -1,0 +1,182 @@
+.aadharCard-front, .aadharCard-back{
+    width: 100%;
+    height: 101%;
+    position: absolute;
+    background-color: #fff;
+    backface-visibility: hidden;
+    border: 1px solid black;
+}
+
+.aadharCard-back{
+    transform: rotateY(180deg);
+}
+
+.aadharCard-wrapper{
+     height: 90%;
+    aspect-ratio: 16/9;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 1s;
+}
+
+.aadharCard-bottom-section{
+    height: 10%;
+    background-color: white;
+    border-top: 2.5px solid red;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+}
+
+.aadharCard-details-wrapper{
+    height: 90%;
+    background-color: white;
+}
+
+.aadharCard-details-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 2% 2% 0% 2%;
+}
+
+.aadharCard-details-section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+.satyamev-jayte-logo{
+    width: 8%;
+}
+
+.gov-of-india-logo{
+    width: 55%;
+    object-fit: contain;
+    margin-left: 10%;
+}
+
+.aadhar-card-logo{
+    width: 15%;
+    object-fit: contain;
+    margin-top: -4%;
+}
+
+.aadharCard-bottom-text-aadhar{
+    color: red;
+}
+
+.aadharCard-details-section-body{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    height: 80%;
+}
+
+.aadharCard-details-section-body-bottom{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    word-spacing: 1px;
+}
+
+.aadharCard-details-section-body-wrapper{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 90%;
+    padding: 15px 0px 0px 0px;
+}
+
+.aadharCard-details-section-body-user-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 45%;
+    height: 4rem;
+    padding-left: 0.5rem;
+}
+
+.aadharCard-details-section-user-img{
+    width: 30%;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+}
+
+.qr-code-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 25%;
+    height: 100%;
+}
+
+.aadharCard-details-section-qr-code{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end   ;
+}
+
+.user-data-text{
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.aadharCard-botton-section-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.red-color{
+    color: red;
+    width: auto;
+    height: auto;
+}
+
+.aadharCard-back-details-section-body-wrapper{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.aadharCard-back-user-address{
+    width: 60%;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.aadharCard-back-qr-code-wrapper{
+    width: 40%;
+}
+
+.aadharCard-back-details-section-qr-code{
+    width: 90%;
+    height: 100%;
+}
