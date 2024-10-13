@@ -1,6 +1,6 @@
 {
   "name": "react-aadhar-card",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "A slick aadhar card component for React.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -10,6 +10,11 @@
     "rollup": "rollup -c --bundleConfigAsCjs"
   },
   "author": "Gaurang Keluskar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaurangkeluskar22/React-Aadhar-Card"
+  },
+  "homepage": "https://github.com/gaurangkeluskar22/React-Aadhar-Card",
   "license": "ISC",
   "devDependencies": {
     "react": "^18.3.1",

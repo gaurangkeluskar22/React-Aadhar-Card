@@ -1,7 +1,7 @@
-import satyamevJayteLogo from "../../assets/images/satyamevjayte.png";
-import govOfIndiaFront from "../../assets/images/aadharCardFront.png";
+import satyamevJayteLogo from "../../assets/images/satyamevjayte.jpg";
+import govOfIndiaFront from "../../assets/images/aadharCardFront1.jpg";
 import aadharLogo from "../../assets/images/Aadhar-Color.svg";
-import govOfIndiaBack from '../../assets/images/aadharCardBack.png'
+import govOfIndiaBack from '../../assets/images/aadharCardBack1.jpg'
 
 interface AadharCardHeaderProp{
   frontSide: boolean
